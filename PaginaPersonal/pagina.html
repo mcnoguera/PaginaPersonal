@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pagina Personal</title>
+<header>
+    <center>  <img src="IMAGENES/micara.jpg" width="200" height="200"> </center>
+    <center><h1>Web Page</h1> </center>
+</header> <br>
+<div>
+    <center><nav>
+        <a href="#Biografia">Biography</a> | 
+        <a href="#Aca">Academic Formation</a> |
+        <a href="#me">About me</a> |
+        <a href="#contact">Contact</a> 
+        </nav></center>
+</div>
+ 
+</head>
+
+<body>
+   <center><h2>
+        Welcome to my personal page here you will find detailed information about me 
+    </h2> </center>
+   
+<section id="Biografia">
+
+    <h1>Biography</h1>
+<table >
+    <tr>
+      <th>Name:</th>
+      <td >Maria Clara Noguera Echeverri</td>
+    </tr>
+    <tr>
+      <th>Age:</th>  
+      <td>20 years old</td>      
+    </tr>  
+    <tr>
+        <th>Birth:</th>  
+        <td>3 October of 1999</td>      
+      </tr>
+      <tr>
+        <th>Citizenship:</th>  
+        <td> Colombian</td>      
+      </tr>
+  </table>
+</section>
+
+<section id="Aca">
+  <h1>Academic Formation</h1>
+  <img src="IMAGENES/colsubsidio.jpg" width="240" height="200">
+  <img src="IMAGENES/CET.jpg" width="200" height="200">
+  <img src="IMAGENES/Andes.png" width="200" height="200">
+
+<ul>
+    <li> I graduated from high school in Colsubsidio Chicala</li>
+    <li>I graduated from the Technician in Web Design and Multimedia at CET</li>
+    <li>I am currently studying systems engineering at Los Andes University</li>
+</ul>  
+</section>
+
+<section id="me">
+    <h1>About me</h1>
+    <h3>Favorite Videos</h3>
+    <p>
+        In my spare time I like to watch some videos of Youtubers playing different games like:
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/faGlgR0SGug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W6gwVnhQ2Q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Links of interest</h3>
+    <ul>
+        <li>
+        I like to watch  Soccer matches in:
+        </li>
+    <a href="http://www.rojadirectatv.tv/"> http://www.rojadirectatv.tv/</a>
+    <li>
+        I like play some games:
+        </li>
+        <img src="IMAGENES/maincra.jpg" width="300" height="200">
+        <img src="IMAGENES/COD.jpg" width="260" height="200">
+    </ul>
+
+</section>
+<section id="contact">
+    <h1>Contact</h1>
+    <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+</section>
+
+<footer>
+<center>
+    CellPhone: 3057772420 - Mail: Mc.noguera@uniandes.edu.co
+</center>
+</footer>
+    
+
+</body>
+
+</html>
